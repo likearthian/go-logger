@@ -33,3 +33,4 @@ type LoggerFunc func(keyvals ...interface{}) error
 func (f LoggerFunc) Log(keyvals ...interface{}) error {
 	return f(keyvals...)
 }
+
